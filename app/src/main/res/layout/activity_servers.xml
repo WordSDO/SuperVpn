@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/servers_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateTint="@color/darkBlueClr" />
+
+    <include
+        android:id="@+id/servers_activity_appbar"
+        layout="@layout/app_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/servers_tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/servers_activity_appbar"
+        android:layout_marginHorizontal="40dp"
+        android:background="@null"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/darkBlueClr"
+        app:tabSelectedTextColor="@color/darkBlueClr"
+        app:tabTextColor="@color/grey_20"
+        app:tabMode="fixed" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/servers_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bannerad"
+        android:layout_below="@id/servers_tablayout" />
+
+    <LinearLayout
+        android:id="@+id/bannerad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/bannerad"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fl_adplaceholder"/>
+    </LinearLayout>
+
+</RelativeLayout>

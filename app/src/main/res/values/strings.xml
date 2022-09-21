@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Super Turbo Free VPN</string>
+
+    <!--change App version-->
+    <string name="current_app_version">Version 1.0</string>
+    <!--End change App version-->
+
+    <string name="connecting">Connecting</string>
+    <string name="paused">Paused</string>
+
+    <!--user's personalization-->
+    <bool name="ads_flag">true</bool>
+
+    <!--<string name="app_id">ca-app-pub-4398493498200774~1279782379</string>
+    <string name="admob_interstitial">ca-app-pub-4398493498200774/8070190735</string>
+    <string name="nativeAd">ca-app-pub-4398493498200774/8944288708</string>-->
+
+
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_interstitial">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="nativeAd">ca-app-pub-3940256099942544/2247696110</string>
+
+    <string name="ad_attribution">Ad</string>
+    <string name="privacy_policy_link">https://super-turbo-free-vpn.flycricket.io/privacy.html</string>
+    <!--END Change Privacy Policy URL-->
+    <string name="ADMOB_ADS_UNIT_ID">ca-app-pub-3940256099942544/2247696110</string>
+    <!--Help to improve us-->
+    <string name="developer_email">help.techsoln@outlook.com</string>
+    <!--END Help to improve us-->
+
+    <!--Drawer opener and closer    -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!--Drawer opener and closer    -->
+
+    <string name="help_to_improve_us_email_subject">Suggestions &amp; Comments</string>
+    <string name="help_to_improve_us_body">Please write down your comments below this line.</string>
+
+    <string name="rating_dialog_details">How was your experience\nwith us?</string>
+    <string name="feedback_email_subject">Feedback</string>
+
+    <string name="Aboutus_page_Text">Super Turbo Hot VPN - Free Unlimited Proxy Master is world best super turbo vpn app its Super Secure VPN Unlimited Proxy Server for lifetime free access. Unlock any websites save your device
+    Super Turbo Hot VPN - Free Unlimited Proxy Master is the most trusted security, privacy and access platform with top performance on speed, stability and security to unblock sites, unblock any apps or websites, access social networks, watch videos and movies, protect Wi-Fi hotspot security and protect privacy</string>
+
+    <string name="purchases">Get Premium</string>
+    <string name="share">Tell your friend</string>
+    <string name="rate">Rate Us</string>
+    <string name="about">About</string>
+    <string name="help">Help us to improve</string>
+    <string name="faq">FAQ</string>
+    <string name="settings">Settings</string>
+    <string name="country_selection">Select Country</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
